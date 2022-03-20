@@ -12,22 +12,22 @@
   "website":   "https://github.com/jagrit007/Telegram-CloneBot",
   "success_url": "https://t.me/scippletech",
   "env": {
-    "BOT_TOKEN": {
+    "BOT_TOKEN": {5193719129:AAEaONG8Vdt7eflq4-LX6caJnF_OqfwG7wM
       "description": "Get this value from @BotFather on Telegram",
       "value": "",
       "required": true
     },
-    "GDRIVE_FOLDER_ID": {
+    "GDRIVE_FOLDER_ID": {1syrHfuhi8ENjNUEBv5VPoUo1PwQqA4ve
       "description": "Google Drive Folder ID to Clone to. (Dont paste a link)",
       "value": "",
       "required": true
     },
-    "OWNER_ID": {
+    "OWNER_ID": {5058047318
       "description": "Get this value by sending /id to @kelverbot on Telegram.",
       "value": "",
       "required": true
     },
-    "AUTHORISED_USERS" : {
+    "AUTHORISED_USERS" : {5058047318
       "description": "List of user ids to allow bot access to. Note: Write within [] and seperate with ,",
       "value": "[]",
       "required": false
@@ -36,12 +36,12 @@
       "description": "(Optional) CloudFlare Workers Index Link from GDINDEX (dont put / at end)",
       "required": false
     },
-    "IS_TEAM_DRIVE": {
+    "IS_TEAM_DRIVE": {True
       "description": "Does you 'GDRIVE_FOLDER_ID' lead to a Team Drive or Normal Google Drive Folder",
       "required": false,
       "value": "False"
     },
-    "USE_SERVICE_ACCOUNTS": {
+    "USE_SERVICE_ACCOUNTS": {True
       "description": "If you are directly deploying from GitHub, set this to False. But if you later add Service Accounts, go to 'Config Vars' in app settings and set this to True.",
       "value": "False",
       "required": false
