@@ -3,12 +3,12 @@ import json
 from distutils.util import strtobool as stb
 
 # --------------------------------------
-BOT_TOKEN = ""
-GDRIVE_FOLDER_ID = ""
+BOT_TOKEN = "5193719129:AAEaONG8Vdt7eflq4-LX6caJnF_OqfwG7wM"
+GDRIVE_FOLDER_ID = "1syrHfuhi8ENjNUEBv5VPoUo1PwQqA4ve"
 # Default folder id.
-OWNER_ID = 123455673
+OWNER_ID = 5058047318
 # Example: OWNER_ID = 619418070
-AUTHORISED_USERS = []
+AUTHORISED_USERS = [5058047318, 5193719129]
 # Example: AUTHORISED_USERS = [63055333, 100483029, -1003943959]
 INDEX_URL = ""
 IS_TEAM_DRIVE = True
